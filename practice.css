@@ -1,0 +1,44 @@
+#first{
+    height: 120px;
+    width: 250px;
+    color: aliceblue;
+    border-radius: 10px;
+    background-color: black;
+    box-shadow: 0px 0px 5px 5px rgb(81, 83, 80);
+    border: 5px solid black;
+    margin: 20px;
+    font-size: 60px;
+    display: block;
+    text-align: center;
+
+}
+.contain{
+    text-align: center;
+    font-size: 100px;
+    margin: 40px;
+}
+#end-date{
+    font-size: 60px;
+    text-align: center;
+    margin: 50px;
+}
+*{
+    background-color: rgb(152, 70, 161);
+}
+.div{
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+.head{
+    height: 30vw;
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
