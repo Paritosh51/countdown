@@ -11,6 +11,7 @@
     display: block;
     text-align: center;
     justify-content: center;
+    
 
 }
 .contain{
@@ -33,6 +34,7 @@
     color: white;
     font-size: 30px;
     text-align: center;
+    background-color:aquamarine;
 }
 .head{
     height: 30vw;
