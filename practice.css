@@ -42,22 +42,27 @@
     align-items: center;
     border-radius: 10px;
 }
-@media (max-width:900px) {
+@media (max-width:600px) {
     .head{
        display: grid;
        grid-template-columns: repeat(auto-fit,
-       minmax(180px,1fr));
-       padding: 20px;
+       minmax(120px,2fr));
+       padding: 10px;
+       height: 300px;
        
     }
     .contain{
-        font-size: 90px;
+        font-size: 20px;
     }
     #end-date{
         font-size: 50px;
     }
     #first{
-        width: 150px;
+        width: 120px;
     
+    }
+    .div{
+        font-size:20px ;
+        text-align: center;
     }
 }
