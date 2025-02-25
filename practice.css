@@ -6,13 +6,11 @@
     background-color: black;
     box-shadow: 0px 0px 5px 5px rgb(81, 83, 80);
     border: 5px solid black;
-    margin: 20px;
+    margin: 30px;
     font-size: 60px;
     display: block;
     text-align: center;
     justify-content: center;
-    
-
 }
 .contain{
     text-align: center;
@@ -29,12 +27,11 @@
 }
 .div{
     display: inline-block;
-    margin-left: 20px;
     margin-right: 20px;
-    color: white;
+    color: rgb(3, 30, 75);
     font-size: 30px;
     text-align: center;
-    background-color:aquamarine;
+    background-color: aquamarine;
 }
 .head{
     height: 30vw;
@@ -45,7 +42,22 @@
     align-items: center;
     border-radius: 10px;
 }
-@media (max-width:480px) {
-    #first{
-        width: 10vw;
+@media (max-width:900px) {
+    .head{
+       display: grid;
+       grid-template-columns: repeat(auto-fit,
+       minmax(180px,1fr));
+       padding: 20px;
+       
     }
+    .contain{
+        font-size: 90px;
+    }
+    #end-date{
+        font-size: 50px;
+    }
+    #first{
+        width: 150px;
+    
+    }
+}
