@@ -6,7 +6,7 @@
     background-color: black;
     box-shadow: 0px 0px 5px 5px rgb(81, 83, 80);
     border: 5px solid black;
-    margin: 30px;
+    margin: 20px;
     font-size: 60px;
     display: block;
     text-align: center;
@@ -46,19 +46,21 @@
     .head{
        display: grid;
        grid-template-columns: repeat(auto-fit,
-       minmax(120px,2fr));
+       minmax(100px,2fr));
        padding: 10px;
        height: 300px;
        
     }
     .contain{
-        font-size: 20px;
+        font-size: 40px;
     }
     #end-date{
         font-size: 50px;
     }
     #first{
-        width: 120px;
+        width: 70px;
+        font-size: 30px;
+        height: 50px;
     
     }
     .div{
